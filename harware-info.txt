@@ -1,0 +1,51 @@
+H/W path         Device    Class          Description
+=====================================================
+                           system         System Product Name (SKU)
+/0                         bus            PRIME H470-PLUS
+/0/0                       memory         64KiB BIOS
+/0/47                      memory         16GiB System Memory
+/0/47/0                    memory         8GiB DIMM DDR4 Synchronous 2666 MHz (0.4 ns)
+/0/47/1                    memory         8GiB DIMM DDR4 Synchronous 2666 MHz (0.4 ns)
+/0/47/2                    memory         [empty]
+/0/47/3                    memory         [empty]
+/0/54                      memory         384KiB L1 cache
+/0/55                      memory         1536KiB L2 cache
+/0/56                      memory         12MiB L3 cache
+/0/57                      processor      Intel(R) Core(TM) i5-10500 CPU @ 3.10GHz
+/0/100                     bridge         Intel Corporation
+/0/100/2         /dev/fb0  display        Intel Corporation
+/0/100/14                  bus            Intel Corporation
+/0/100/14/0      usb1      bus            xHCI Host Controller
+/0/100/14/0/5              bus            USB2.1 Hub
+/0/100/14/0/5/2            input          Wireless Receiver
+/0/100/14/0/5/3            multimedia     GENERAL WEBCAM
+/0/100/14/0/5/4            input          RGB Keyboard
+/0/100/14/0/a              bus            USB2.0 Hub
+/0/100/14/0/b              multimedia     USB Audio Device
+/0/100/14/0/d              input          AURA LED Controller
+/0/100/14/1      usb2      bus            xHCI Host Controller
+/0/100/14/1/5              bus            USB3.2 Hub
+/0/100/14.2                memory         RAM memory
+/0/100/15                  bus            Intel Corporation
+/0/100/15.1                bus            Intel Corporation
+/0/100/16                  communication  Intel Corporation
+/0/100/17        scsi0     storage        Intel Corporation
+/0/100/17/0      /dev/sda  disk           480GB ADATA SU630
+/0/100/17/1      /dev/sdb  disk           480GB KINGSTON SA400M8
+/0/100/1d                  bridge         Intel Corporation
+/0/100/1d.3                bridge         Intel Corporation
+/0/100/1d.3/0    enp2s0    network        RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller
+/0/100/1f                  bridge         Intel Corporation
+/0/100/1f.3                multimedia     Intel Corporation
+/0/100/1f.4                bus            Intel Corporation
+/0/100/1f.5                bus            Intel Corporation
+/0/1                       system         PnP device PNP0c02
+/0/2                       system         PnP device PNP0c02
+/0/3                       communication  PnP device PNP0501
+/0/4                       system         PnP device PNP0c02
+/0/5                       generic        PnP device INT3f0d
+/0/6                       system         PnP device PNP0c02
+/0/7                       system         PnP device PNP0c02
+/0/8                       system         PnP device PNP0c02
+/0/9                       system         PnP device PNP0c02
+/1                         power          To Be Filled By O.E.M.
